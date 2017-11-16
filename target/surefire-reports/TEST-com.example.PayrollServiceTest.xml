@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.004" errors="0" skipped="0" tests="4" name="com.example.PayrollServiceTest">
+<testsuite failures="0" time="0.005" errors="0" skipped="0" tests="4" name="com.example.PayrollServiceTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_79\jre\bin"/>
@@ -66,5 +66,5 @@
   <testcase time="0.004" classname="com.example.PayrollServiceTest" name="hraShouldBeSixtyPercentOfSalary"/>
   <testcase time="0" classname="com.example.PayrollServiceTest" name="hraShouldYieldExceptionIfZeroOrNegativeSalary"/>
   <testcase time="0" classname="com.example.PayrollServiceTest" name="daShouldBeTenPercentOfSalary"/>
-  <testcase time="0" classname="com.example.PayrollServiceTest" name="daShouldYieldExceptionIfZeroOrNegativeSalary"/>
+  <testcase time="0.001" classname="com.example.PayrollServiceTest" name="daShouldYieldExceptionIfZeroOrNegativeSalary"/>
 </testsuite>
